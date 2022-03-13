@@ -1,0 +1,57 @@
+.features{
+    @include big-padding();
+    background-color: #f3f4f8;
+    .feature-row{
+        margin-top: 30px;
+        .feature-col{
+          text-align: left;
+            background-color: #FFF;
+            padding: 30px;
+            margin-bottom: 30px;
+
+             @include shado-4();
+             img{
+                margin-bottom: 15px;
+             }
+             
+
+            i{
+                font-size: 2.5rem;
+                margin-bottom: 20px;
+                color: #28a745;
+            }
+            &:hover{
+                @include shado-1();
+            }
+            h4{
+                font-size: 1.1rem;
+                font-weight: 600;
+                margin-bottom: 12px;
+            }
+            p{
+                font-size: .9rem;
+            }
+        }
+    }
+}
+
+.more-features{
+    @include big-padding();
+    background-color: #fff;
+    .more-featur-ro{
+      margin-top: 20px;
+      .more-feat{
+        display: flex;
+        margin-bottom: 30px;
+        .icon{
+            padding: 15px;
+            img{
+              width: 110px;
+            }
+        }
+        .detail{
+              padding: 15px;
+        }
+      }
+    }
+}

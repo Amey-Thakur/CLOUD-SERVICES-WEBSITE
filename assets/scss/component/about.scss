@@ -1,0 +1,131 @@
+.about-coo{
+	
+	background-color: #FFF;
+	padding-top: 130px;
+	.about-row{
+		margin-top: 50px;
+		@media only screen and (max-width: 476px) {
+			padding-top: 90px;
+		}
+		.about-img{
+			text-align: center;
+			margin: auto;
+			img{
+				max-width: 80%;
+				@media only screen and (max-width: 767px) {
+					width: 100%;
+				}
+				@media only screen and (max-width: 476px) {
+					margin-bottom: 30px;
+				}
+			}
+		}
+		.about-text{
+			h1{
+				margin-bottom: 30px;
+				font-size: 2rem;
+				line-height: 40px;
+			}
+			p{
+				margin-bottom: 30px;
+			}
+			.about-featur{
+				ul{
+					width: 100%;
+					margin-left: -10px;
+					li{
+						padding: 10px;
+						width: 50%;
+						float: left;
+						font-weight: 400;
+						i{
+							margin-right: 5px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.page-nav{
+    background-size: 100%;
+    padding: 68px;
+    text-align: center;
+    padding-top: 60px;
+    background-color: #f3f4f8;
+    ul{float: none;margin: auto; width: auto;margin-top: 15px;}
+    @media screen and (max-width: 992px){
+       background-size: auto; 
+    }
+
+     @media screen and (max-width: 767px){
+        padding-top: 100px;
+    }
+    @media screen and (max-width: 356px){
+         padding-top: 200px;
+    }
+    h2{
+        font-size: 30px;
+        width: 100%;
+        font-weight: 600;
+        color: #444;
+        @media screen and (max-width: 600px){
+            font-size: 26px;
+        }
+    }
+    ul li{
+        float: left;
+        margin-right: 10px;
+        margin-top: 10px;
+        font-size: 16px;
+        font-size: .93rem;
+        font-weight: 600;
+        color: #444;
+        i{
+            width: 30px;
+            text-align: center;
+            color: #444;
+            
+
+        }
+        a{
+            color: #444;
+            font-size: .93rem;
+            font-weight: 600;
+        }
+    }
+}
+
+/* ===================================== Our Team Style  ================================== */
+
+.our-team {
+  padding: 50px; }
+  @media screen and (max-width: 940px) {
+    .our-team {
+      padding: 50px 10px; } }
+.our-team .team-row {
+    margin-top: 20px; }
+.our-team .team-row .single-usr {
+      box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65), 0 2px 6px 0 rgba(206, 206, 238, 0.54);
+      margin-bottom: 20px; 
+}
+.our-team .team-row .single-usr img {
+        width: 100%; 
+}
+.our-team .team-row .single-usr .det-o {
+        padding: 20px;
+        background-color: #0363b0; 
+}
+.our-team .team-row .single-usr .det-o h4 {
+          color: #FFF;
+          margin-bottom: 0px; 
+}
+.our-team .team-row .single-usr .det-o i {
+          color: #FFF; 
+}
+
+
+.cont-row{
+	margin-bottom: 20px;
+}

@@ -1,0 +1,42 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 19/02/2021 16:15
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+}
+
+.flaticon-shopping-basket:before { content: "\f100"; }
+.flaticon-loupe:before { content: "\f101"; }
+.flaticon-facebook:before { content: "\f102"; }
+.flaticon-twitter:before { content: "\f103"; }
+.flaticon-pinterest:before { content: "\f104"; }
+.flaticon-behance:before { content: "\f105"; }
+.flaticon-pie-chart:before { content: "\f106"; }
+.flaticon-startup:before { content: "\f107"; }
+.flaticon-diagram:before { content: "\f108"; }
+.flaticon-big-data:before { content: "\f109"; }
+.flaticon-checked:before { content: "\f10a"; }
+.flaticon-right-arrow:before { content: "\f10b"; }

@@ -1,0 +1,39 @@
+.banner-container{
+	background-color: #f3f4f8;
+	padding-bottom: 100px;
+	.banner-row{
+		.banner-txt{
+            margin: auto;
+			h1{
+                margin-bottom: 50px;
+                font-weight: 700;
+                font-size: 3rem;
+			}
+			p{
+                margin-bottom: 20px;
+                font-size: .9rem;
+                font-weight: 500;
+			}
+		}
+		.btn-row{
+			margin-top: 50px;
+			.btn{
+                width: 200px;
+                margin-right: 20px;
+                @media only screen and (max-width: 767px) {
+                	width: 100%;
+                	margin-bottom: 20px;
+                }
+			}
+		}
+	}
+	.banner-img{
+        text-align: center;
+		img{
+            max-width: 400px;
+            @media only screen and (max-width: 767px) {
+					width: 100%;
+				}
+		}
+	}
+}

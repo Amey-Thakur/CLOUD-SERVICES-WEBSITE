@@ -1,0 +1,36 @@
+$color-primary:#fff;
+$text-primary:#666666;
+$icons-color:#fc5f49;
+$heading-color:#0a0a13;
+$background-color:#f8f8ff;
+$bg-color: linear-gradient(66deg, rgba(48,5,123,1) 16%, rgba(59,19,141,1) 49%, rgba(106,73,203,1) 81%);
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+
+@mixin shado-1(){
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+@mixin shado-3 {
+    box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65), 0 2px 6px 0 rgba(206, 206, 238, 0.54);
+}
+@mixin shado-4(){
+    box-shadow:  0 2px 3px 0 rgba(218, 218, 253, 0.35), 0 0px 3px 0 rgba(206, 206, 238, 0.35);
+}
+
+@mixin shado-5(){
+    box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65), 0 2px 6px 0 rgba(206, 206, 238, 0.54);
+}
+
+@mixin card-1(){
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius:2px;
+}
+
+@mixin big-padding(){
+    padding: 50px;
+    @media screen and (max-width: 940px){
+        padding: 30px 10px;
+    }
+    
+}

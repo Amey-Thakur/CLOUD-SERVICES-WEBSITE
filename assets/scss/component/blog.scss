@@ -1,0 +1,48 @@
+
+/* =================== Blog Style Starts Here =================== */
+
+
+.blog {
+  padding: 50px;
+  background-color: #ffffff; }
+@media screen and (max-width: 990px) {
+  .blog {
+    padding: 0px 10px; } }
+@media screen and (max-width: 1199px) {
+  .blog .container {
+    max-width: 100%; } }
+.blog .blog-singe {
+
+  @include shado-3();
+  border-radius: 2px;
+  background-color: #FFF;
+  margin-bottom: 30px; }
+.blog .blog-singe .blog-img-tab {
+  padding: 0px; }
+.blog .blog-singe .blog-content-tab {
+  padding: 15px; }
+.blog .blog-singe .blog-content-tab h2 {
+  font-size: 19px; }
+.blog .blog-singe .blog-content-tab i {
+  margin-right: 10px;
+  font-size: 12px; }
+.blog .blog-singe .blog-content-tab i small {
+  margin-left: 5px;
+  font-size: 100%; }
+.blog .blog-singe .blog-content-tab .blog-desic {
+  margin-top: 8px;
+  font-size: .9rem;
+  text-indent: 20px;
+  margin-bottom: 10px; }
+.blog .blog-singe .blog-content-tab a {
+  color: #007bfc;
+  font-size: 12px;
+  font-weight: 600;
+   }
+.blog .blog-singe .blog-content-tab a i {
+  margin-left: 15px;
+  font-size: 13px; }
+
+.blog-row{
+  margin-top: 20px;
+}

@@ -1,0 +1,35 @@
+.key-featurecont{
+	    position: absolute;
+    z-index: 999;
+	.key-ro{
+		margin-top: -52px;
+		z-index: 999;
+		.keycol{
+			.key-cover{
+				box-shadow: 4.871px 34.659px 30px 0px rgb(0 0 0 / 6%);
+				background-color: #FFF;
+                display: flex;
+                padding: 15px;
+                border-radius: 8px;
+				.logo-cc{
+					img{
+						max-width: 75px;
+					}
+				}
+				.text-cc{
+					flex-grow:1;
+					margin: auto 0px;
+					padding-left: 15px;
+					h3{
+						font-size: 1.2rem;
+						font-weight: 600;
+						margin-bottom: 10px;
+					}
+					p{
+						font-size: .9rem;
+					}
+				}
+			}
+		}
+	}
+}
