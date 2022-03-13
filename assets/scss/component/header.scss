@@ -1,0 +1,69 @@
+header{
+	padding-top: 2px;
+	.head-ro{
+		padding: 3px;
+		.logo{
+			img{
+				max-width: 100px;
+				padding-top: 2px;
+				
+			}
+		}
+		.show{
+			display: block !important;
+		}
+		.nav{
+		@media only screen and (max-width: 767px) {
+			display: none;
+		}
+			ul{
+				width: 100%;
+				li{
+                    float: left;
+                    padding: 20px;
+                    @media only screen and (max-width: 860px) {
+                    	padding: 20px 12px;
+                    }
+                    a{
+                        font-weight: 600;
+                        color: #444;
+                        font-size: .9rem;
+                    }
+                    @media only screen and (max-width: 767px) {
+                    	float: none;
+                    }
+				}
+				.btnll{
+					float: right;
+					
+					.btn{
+						@include shado-1();
+						font-weight: 500;
+						@media only screen and (max-width: 767px) {
+							width: 100%;
+						}
+					}
+					
+				}
+			}
+		}
+	}
+}
+.scroll-to-fixed-fixed{
+	@include shado-1();
+	background-color: #FFF;
+}
+.head-cover{
+	margin-top: 2px;
+	background-color: #f3f4f8;
+}
+
+.small-menu{
+    float: right;
+    padding: 10px;
+    padding-top: 16px;
+    font-size: 1.4rem;
+    i{
+        color: #0d1e67;
+    }
+}
