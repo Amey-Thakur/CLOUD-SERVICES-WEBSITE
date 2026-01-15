@@ -1,0 +1,279 @@
+<!--
+    ================================================================
+    Cloud Services Website - 404 Not Found
+    ================================================================
+    Project: Cloud Services Website
+    Description: Custom 404 error page for Cloud Services Website
+    
+    Created by: Amey Thakur (https://github.com/Amey-Thakur) & Mega Satish (https://github.com/msatmod)
+    Repository: https://github.com/Amey-Thakur/CLOUD-SERVICES-WEBSITE
+    License: MIT
+    ================================================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 | Service Not Found</title>
+    <meta name="author" content="Amey Thakur & Mega Satish">
+    <meta name="description" content="Error 404: The cloud service you requested could not be found.">
+    <meta name="robots" content="noindex, follow">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        :root {
+            --bg-color: #0c4a6e;
+            --text-primary: #f0f9ff;
+            --text-secondary: #7dd3fc;
+            --accent-color: #0ea5e9;
+            --accent-hover: #38bdf8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0c4a6e 0%, #082f49 100%);
+            color: var(--text-primary);
+            font-family: 'Play', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        .error-container {
+            max-width: 700px;
+            padding: 40px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .cloud-icon {
+            font-size: 5rem;
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .cloud-icon i {
+            animation: float-cloud 3s ease-in-out infinite;
+        }
+
+        .cloud-icon .x-mark {
+            position: absolute;
+            font-size: 2rem;
+            color: #ef4444;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: bold;
+        }
+
+        .error-code {
+            font-size: 7rem;
+            font-weight: 900;
+            line-height: 1;
+            margin-bottom: 20px;
+            background: linear-gradient(120deg, #0ea5e9, #38bdf8);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: pulse 3s infinite ease-in-out;
+        }
+
+        .error-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .error-message {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 40px;
+            max-width: 550px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+
+        .status-box {
+            background: rgba(14, 165, 233, 0.15);
+            border: 1px solid rgba(14, 165, 233, 0.3);
+            padding: 15px 25px;
+            border-radius: 10px;
+            font-family: monospace;
+            margin-bottom: 30px;
+            display: inline-block;
+            text-align: left;
+        }
+
+        .status-box .line {
+            margin: 5px 0;
+        }
+
+        .status-box .error {
+            color: #f87171;
+        }
+
+        .status-box .success {
+            color: #4ade80;
+        }
+
+        .btn-home {
+            background: var(--accent-color);
+            color: white;
+            padding: 14px 35px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s;
+            border: none;
+            font-family: 'Play', sans-serif;
+            font-size: 1rem;
+        }
+
+        .btn-home:hover {
+            transform: translateY(-3px);
+            background: var(--accent-hover);
+            box-shadow: 0 15px 30px rgba(14, 165, 233, 0.4);
+            color: white;
+        }
+
+        .bg-shape {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.25;
+            z-index: 1;
+            animation: float 20s infinite alternate;
+        }
+
+        .shape-1 {
+            width: 350px;
+            height: 350px;
+            background: #0ea5e9;
+            top: -100px;
+            left: -100px;
+        }
+
+        .shape-2 {
+            width: 280px;
+            height: 280px;
+            background: #38bdf8;
+            bottom: -80px;
+            right: -80px;
+            animation-delay: -5s;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            100% {
+                transform: translate(30px, 50px) scale(1.1);
+            }
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.9;
+                transform: scale(0.98);
+            }
+        }
+
+        @keyframes float-cloud {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .footer-simple {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .footer-simple a {
+            color: var(--accent-hover);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer-simple a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+
+    <div class="error-container">
+        <div class="cloud-icon">
+            <i class="fas fa-cloud"></i>
+            <span class="x-mark">✕</span>
+        </div>
+        <div class="error-code">404</div>
+        <div class="error-title">Service Not Found</div>
+        <div class="status-box">
+            <div class="line"><span class="success">✓</span> Cloud Infrastructure: Online</div>
+            <div class="line"><span class="success">✓</span> Server Status: Running</div>
+            <div class="line"><span class="error">✕</span> Requested Page: Not Found</div>
+        </div>
+        <p class="error-message">
+            <strong>Error 404:</strong> The cloud service or page you requested could not be located in our
+            infrastructure.
+            <br><br>
+            Return to the homepage to explore our available cloud solutions.
+        </p>
+        <a href="index.html" class="btn-home">
+            <i class="fas fa-cloud"></i> Back to Cloud
+        </a>
+
+        <div class="footer-simple">
+            <p>2022 &copy; All Rights Reserved | Designed and Developed by
+                <a href="https://github.com/Amey-Thakur" target="_blank" rel="noopener noreferrer">Amey Thakur</a> &
+                <a href="https://github.com/msatmod" target="_blank" rel="noopener noreferrer">Mega Satish</a>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('contextmenu', e => e.preventDefault());
+        document.addEventListener('selectstart', e => e.preventDefault());
+    </script>
+</body>
+
+</html>
