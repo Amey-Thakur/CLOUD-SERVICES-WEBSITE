@@ -21,6 +21,11 @@ body {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+  /* Anti-Select Protection */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 * {
