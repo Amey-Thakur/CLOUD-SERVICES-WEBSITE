@@ -122,9 +122,7 @@ CLOUD-SERVICES-WEBSITE/
   <b>Service Offerings</b>
   <br>
   <img src="https://user-images.githubusercontent.com/54937357/158046939-0ea82e80-3d8e-4a6b-a3ab-34d55d9d999c.png" alt="Services" width="80%">
-  
   <br><br>
-
   <b>Key Features</b>
   <br>
   <img src="https://user-images.githubusercontent.com/54937357/158046955-cdfdb5e8-0ff1-4932-a2be-4dafbea6e69a.png" alt="Features" width="80%">
