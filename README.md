@@ -47,14 +47,17 @@
 <a name="overview"></a>
 ## Overview
 
-The **Cloud Services Website** project creates a professional-grade frontend layout for a technology infrastructure company. It focuses on presenting complex service information clearly and efficiently using pure HTML5 and CSS3.
+The **Cloud Services Website** is a responsive web platform that exemplifies **Information Architecture (IA)** and **Hick’s Law** in modern web design. The project focuses on presenting complex service hierarchies in a digestible, navigable format.
 
-The design emphasizes readability, grid-based layouts, and responsive behavior to ensure the site looks compliant across various device viewports.
+### HMI Principles
+The development of this interface was guided by core **Human-Machine Interaction** paradigms:
+*   **Readability**: Utilizing typographic hierarchy and generous whitespace to reduce visual crowding.
+*   **Visual Consistency**: Maintaining uniform design tokens (color, spacing) to allow users to build a reliable mental model of the navigation structure.
 
 > [!TIP]
-> **Semantic Structure**
+> **Visual Hierarchy & Scanning**
 >
-> The codebase utilizes semantic tags (`<header>`, `<section>`, `<footer>`) to improve accessibility and SEO, adhering to modern web standards.
+> The landing page layout is optimized for **F-Pattern scanning**, placing high-priority value propositions and Call-to-Action (CTA) buttons along the natural reading path. This deliberate structuring of information ensures that users capture the most critical content within the first few seconds of interaction, adhering to the HMI principle of **Efficiency of Use**.
 
 ---
 
