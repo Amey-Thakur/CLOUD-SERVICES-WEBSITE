@@ -1,0 +1,45 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CLOUD-SERVICES-WEBSITE",
+    "description": "A responsive, multi-page static web application serving as a digital brochure for a cloud computing service provider.",
+    "identifier": "CLOUD-SERVICES-WEBSITE",
+    "license": "https://spdx.org/licenses/MIT.html",
+    "programmingLanguage": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Amey",
+            "familyName": "Thakur",
+            "id": "https://orcid.org/0000-0001-5644-1575",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Terna Engineering College"
+            }
+        },
+        {
+            "@type": "Person",
+            "givenName": "Mega",
+            "familyName": "Satish",
+            "id": "https://orcid.org/0000-0002-1430-4961",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Terna Engineering College"
+            }
+        }
+    ],
+    "dateReleased": "2022-03-13",
+    "codeRepository": "https://github.com/Amey-Thakur/CLOUD-SERVICES-WEBSITE",
+    "developmentStatus": "complete",
+    "applicationCategory": "Cloud Computing / Web Application",
+    "keywords": [
+        "Cloud Services",
+        "Web Development",
+        "Digital Brochure",
+        "Terna Engineering College"
+    ]
+}
