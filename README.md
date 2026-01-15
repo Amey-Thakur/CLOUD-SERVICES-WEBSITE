@@ -118,9 +118,7 @@ CLOUD-SERVICES-WEBSITE/
   <b>Landing Page Hero Section</b>
   <br>
   <img src="https://user-images.githubusercontent.com/54937357/158046934-63cba9bf-a66b-44da-ade8-b0a1783ebf76.png" alt="Hero Section" width="80%">
-  
   <br><br>
-  
   <b>Service Offerings</b>
   <br>
   <img src="https://user-images.githubusercontent.com/54937357/158046939-0ea82e80-3d8e-4a6b-a3ab-34d55d9d999c.png" alt="Services" width="80%">
@@ -130,9 +128,7 @@ CLOUD-SERVICES-WEBSITE/
   <b>Key Features</b>
   <br>
   <img src="https://user-images.githubusercontent.com/54937357/158046955-cdfdb5e8-0ff1-4932-a2be-4dafbea6e69a.png" alt="Features" width="80%">
-  
   <br><br>
-  
   <b>Pricing & Hosting Plans</b>
   <br>
   <img src="https://user-images.githubusercontent.com/54937357/158046959-c6a5cfeb-53db-453b-b77a-d2ad9d9c99fc.png" alt="Hosting Plans" width="80%">
