@@ -1,9 +1,19 @@
-$( document ).ready(function() {
+/**
+ * Project: Cloud Services Website
+ * File: script.js
+ * Date: March 13, 2022
+ * Description: JavaScript to handle responsive menu toggling, filtering, and testimonial slider initialization.
+ * 
+ * Created by: Amey Thakur (https://github.com/Amey-Thakur) & Mega Satish (https://github.com/msatmod)
+ * Repository: https://github.com/Amey-Thakur/CLOUD-SERVICES-WEBSITE
+ * License: MIT
+ */
+$(document).ready(function () {
     var w = window.innerWidth;
 
-    if(w > 767){
+    if (w > 767) {
         $('#menu-jk').scrollToFixed();
-    }else{
+    } else {
         $('#menu-jk').scrollToFixed();
     }
 
@@ -12,52 +22,50 @@ $( document ).ready(function() {
 })
 
 
-$(document).ready(function(){
-  $('.menu-toggle').click(function(){
-    $('.menu-toggle').toggleClass('active')
-    $('.menu').toggleClass('active')
-  });
+$(document).ready(function () {
+    $('.menu-toggle').click(function () {
+        $('.menu-toggle').toggleClass('active')
+        $('.menu').toggleClass('active')
+    });
 });
 
 
 
-$(document).ready(function(){
+$(document).ready(function () {
 
-    $(".filter-button").click(function(){
+    $(".filter-button").click(function () {
         var value = $(this).attr('data-filter');
-        
-        if(value == "all")
-        {
+
+        if (value == "all") {
             //$('.filter').removeClass('hidden');
             $('.filter').show('1000');
         }
-        else
-        {
-//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-            $(".filter").not('.'+value).hide('3000');
-            $('.filter').filter('.'+value).show('3000');
-            
+        else {
+            //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+            //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            $(".filter").not('.' + value).hide('3000');
+            $('.filter').filter('.' + value).show('3000');
+
         }
     });
-    
+
     if ($(".filter-button").removeClass("active")) {
-$(this).removeClass("active");
-}
-$(this).addClass("active");
+        $(this).removeClass("active");
+    }
+    $(this).addClass("active");
 
 });
 
 
-$(document).ready(function(){
+$(document).ready(function () {
     $("#testimonial-slider").owlCarousel({
-        items:2,
-        itemsDesktop:[1000,2],
-        itemsDesktopSmall:[979,2],
-        itemsTablet:[768,1],
-        pagination:false,
-        navigation:true,
-        navigationText:["",""],
-        autoPlay:true
+        items: 2,
+        itemsDesktop: [1000, 2],
+        itemsDesktopSmall: [979, 2],
+        itemsTablet: [768, 1],
+        pagination: false,
+        navigation: true,
+        navigationText: ["", ""],
+        autoPlay: true
     });
 });
