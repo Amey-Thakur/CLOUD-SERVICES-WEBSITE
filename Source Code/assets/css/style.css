@@ -11,6 +11,11 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
 
+/*
+  Global Reset and Base Styles:
+  Removes default margins/padding and sets 'box-sizing: border-box' for predictable sizing.
+  'font-family' applies the Google Font 'Play' as the primary typeface.
+*/
 body {
   font-family: 'Play', sans-serif;
   margin: 0;

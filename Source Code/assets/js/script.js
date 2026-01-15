@@ -8,6 +8,11 @@
  * Repository: https://github.com/Amey-Thakur/CLOUD-SERVICES-WEBSITE
  * License: MIT
  */
+/**
+ * Sticky Navigation Handler
+ * Uses the 'scrollToFixed' jQuery plugin to make the header menu fixed
+ * at the top of the viewport when the user scrolls past it.
+ */
 $(document).ready(function () {
     var w = window.innerWidth;
 
@@ -57,6 +62,11 @@ $(document).ready(function () {
 });
 
 
+/**
+ * Testimonial Slider Initialization
+ * Utilizes Owl Carousel jQuery plugin to create a responsive slider.
+ * Configuration includes items per breakpoint and auto-play.
+ */
 $(document).ready(function () {
     $("#testimonial-slider").owlCarousel({
         items: 2,
