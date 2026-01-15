@@ -1,5 +1,16 @@
+/*
+  Project: Cloud Services Website
+  File: style.css
+  Date: March 13, 2022
+  Description: Main stylesheet handling responsive layout, typography, and component styling for the website.
+
+  Created by: Amey Thakur (https://github.com/Amey-Thakur) & Mega Satish (https://github.com/msatmod)
+  Repository: https://github.com/Amey-Thakur/CLOUD-SERVICES-WEBSITE
+  License: MIT
+*/
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+
 body {
   font-family: 'Play', sans-serif;
   margin: 0;
@@ -13,7 +24,8 @@ body {
   box-sizing: border-box;
 }
 
-ul, ol {
+ul,
+ol {
   padding: 0;
   margin: 0;
 }
@@ -34,11 +46,17 @@ p {
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
-input:focus, input:active {
+input:focus,
+input:active {
   box-shadow: none !important;
 }
 
@@ -59,11 +77,13 @@ section {
   position: relative;
   overflow: hidden;
 }
+
 @media screen and (max-width: 575.98px) {
   section {
     padding: 1.25rem 0;
   }
 }
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   section {
     padding: 1.875rem 0;
@@ -73,6 +93,7 @@ section {
 .container {
   max-width: 1170px;
 }
+
 @media screen and (max-width: 575px) {
   .container {
     padding: 0px 15px;
@@ -92,6 +113,7 @@ html {
 .section-title {
   text-align: center;
 }
+
 .section-title span {
   background-color: rgba(66, 82, 249, 0.2);
   padding: 6px 20px;
@@ -100,10 +122,12 @@ html {
   font-size: 0.9rem;
   color: #4252f9;
 }
+
 .section-title h2 {
   font-weight: 600;
   margin: 15px 0px;
 }
+
 .section-title p {
   max-width: 600px;
   margin: auto;
@@ -112,50 +136,62 @@ html {
 header {
   padding-top: 2px;
 }
+
 header .head-ro {
   padding: 3px;
 }
+
 header .head-ro .logo img {
   max-width: 100px;
   padding-top: 2px;
 }
+
 header .head-ro .show {
   display: block !important;
 }
+
 @media only screen and (max-width: 767px) {
   header .head-ro .nav {
     display: none;
   }
 }
+
 header .head-ro .nav ul {
   width: 100%;
 }
+
 header .head-ro .nav ul li {
   float: left;
   padding: 20px;
 }
+
 @media only screen and (max-width: 860px) {
   header .head-ro .nav ul li {
     padding: 20px 12px;
   }
 }
+
 header .head-ro .nav ul li a {
   font-weight: 600;
   color: #444;
   font-size: 0.9rem;
 }
+
 @media only screen and (max-width: 767px) {
   header .head-ro .nav ul li {
     float: none;
   }
 }
+
 header .head-ro .nav ul .btnll {
   float: right;
 }
+
 header .head-ro .nav ul .btnll .btn {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   font-weight: 500;
 }
+
 @media only screen and (max-width: 767px) {
   header .head-ro .nav ul .btnll .btn {
     width: 100%;
@@ -178,6 +214,7 @@ header .head-ro .nav ul .btnll .btn {
   padding-top: 16px;
   font-size: 1.4rem;
 }
+
 .small-menu i {
   color: #0d1e67;
 }
@@ -186,38 +223,47 @@ header .head-ro .nav ul .btnll .btn {
   background-color: #f3f4f8;
   padding-bottom: 100px;
 }
+
 .banner-container .banner-row .banner-txt {
   margin: auto;
 }
+
 .banner-container .banner-row .banner-txt h1 {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 3rem;
 }
+
 .banner-container .banner-row .banner-txt p {
   margin-bottom: 20px;
   font-size: 0.9rem;
   font-weight: 500;
 }
+
 .banner-container .banner-row .btn-row {
   margin-top: 50px;
 }
+
 .banner-container .banner-row .btn-row .btn {
   width: 200px;
   margin-right: 20px;
 }
+
 @media only screen and (max-width: 767px) {
   .banner-container .banner-row .btn-row .btn {
     width: 100%;
     margin-bottom: 20px;
   }
 }
+
 .banner-container .banner-img {
   text-align: center;
 }
+
 .banner-container .banner-img img {
   max-width: 400px;
 }
+
 @media only screen and (max-width: 767px) {
   .banner-container .banner-img img {
     width: 100%;
@@ -228,10 +274,12 @@ header .head-ro .nav ul .btnll .btn {
   position: absolute;
   z-index: 999;
 }
+
 .key-featurecont .key-ro {
   margin-top: -52px;
   z-index: 999;
 }
+
 .key-featurecont .key-ro .keycol .key-cover {
   box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06);
   background-color: #FFF;
@@ -239,19 +287,23 @@ header .head-ro .nav ul .btnll .btn {
   padding: 15px;
   border-radius: 8px;
 }
+
 .key-featurecont .key-ro .keycol .key-cover .logo-cc img {
   max-width: 75px;
 }
+
 .key-featurecont .key-ro .keycol .key-cover .text-cc {
   flex-grow: 1;
   margin: auto 0px;
   padding-left: 15px;
 }
+
 .key-featurecont .key-ro .keycol .key-cover .text-cc h3 {
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 10px;
 }
+
 .key-featurecont .key-ro .keycol .key-cover .text-cc p {
   font-size: 0.9rem;
 }
@@ -260,49 +312,60 @@ header .head-ro .nav ul .btnll .btn {
   background-color: #FFF;
   padding-top: 130px;
 }
+
 .about-coo .about-row {
   margin-top: 50px;
 }
+
 @media only screen and (max-width: 476px) {
   .about-coo .about-row {
     padding-top: 90px;
   }
 }
+
 .about-coo .about-row .about-img {
   text-align: center;
   margin: auto;
 }
+
 .about-coo .about-row .about-img img {
   max-width: 80%;
 }
+
 @media only screen and (max-width: 767px) {
   .about-coo .about-row .about-img img {
     width: 100%;
   }
 }
+
 @media only screen and (max-width: 476px) {
   .about-coo .about-row .about-img img {
     margin-bottom: 30px;
   }
 }
+
 .about-coo .about-row .about-text h1 {
   margin-bottom: 30px;
   font-size: 2rem;
   line-height: 40px;
 }
+
 .about-coo .about-row .about-text p {
   margin-bottom: 30px;
 }
+
 .about-coo .about-row .about-text .about-featur ul {
   width: 100%;
   margin-left: -10px;
 }
+
 .about-coo .about-row .about-text .about-featur ul li {
   padding: 10px;
   width: 50%;
   float: left;
   font-weight: 400;
 }
+
 .about-coo .about-row .about-text .about-featur ul li i {
   margin-right: 5px;
 }
@@ -314,38 +377,45 @@ header .head-ro .nav ul .btnll .btn {
   padding-top: 60px;
   background-color: #f3f4f8;
 }
+
 .page-nav ul {
   float: none;
   margin: auto;
   width: auto;
   margin-top: 15px;
 }
+
 @media screen and (max-width: 992px) {
   .page-nav {
     background-size: auto;
   }
 }
+
 @media screen and (max-width: 767px) {
   .page-nav {
     padding-top: 100px;
   }
 }
+
 @media screen and (max-width: 356px) {
   .page-nav {
     padding-top: 200px;
   }
 }
+
 .page-nav h2 {
   font-size: 30px;
   width: 100%;
   font-weight: 600;
   color: #444;
 }
+
 @media screen and (max-width: 600px) {
   .page-nav h2 {
     font-size: 26px;
   }
 }
+
 .page-nav ul li {
   float: left;
   margin-right: 10px;
@@ -355,11 +425,13 @@ header .head-ro .nav ul .btnll .btn {
   font-weight: 600;
   color: #444;
 }
+
 .page-nav ul li i {
   width: 30px;
   text-align: center;
   color: #444;
 }
+
 .page-nav ul li a {
   color: #444;
   font-size: 0.93rem;
@@ -376,6 +448,7 @@ header .head-ro .nav ul .btnll .btn {
     padding: 50px 10px;
   }
 }
+
 .our-team .team-row {
   margin-top: 20px;
 }
@@ -417,6 +490,7 @@ header .head-ro .nav ul .btnll .btn {
     padding: 50px 10px;
   }
 }
+
 .testimonial-container .float-auto {
   float: none;
   margin: auto;
@@ -550,6 +624,7 @@ header .head-ro .nav ul .btnll .btn {
     font-size: 11px;
   }
 }
+
 .no-margin {
   margin: 0px;
 }
@@ -565,11 +640,13 @@ header .head-ro .nav ul .btnll .btn {
     padding: 0px 10px;
   }
 }
+
 @media screen and (max-width: 1199px) {
   .blog .container {
     max-width: 100%;
   }
 }
+
 .blog .blog-singe {
   box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65), 0 2px 6px 0 rgba(206, 206, 238, 0.54);
   border-radius: 2px;
@@ -625,14 +702,17 @@ header .head-ro .nav ul .btnll .btn {
   padding: 50px;
   background-color: #f3f4f8;
 }
+
 @media screen and (max-width: 940px) {
   .features {
     padding: 30px 10px;
   }
 }
+
 .features .feature-row {
   margin-top: 30px;
 }
+
 .features .feature-row .feature-col {
   text-align: left;
   background-color: #FFF;
@@ -640,22 +720,27 @@ header .head-ro .nav ul .btnll .btn {
   margin-bottom: 30px;
   box-shadow: 0 2px 3px 0 rgba(218, 218, 253, 0.35), 0 0px 3px 0 rgba(206, 206, 238, 0.35);
 }
+
 .features .feature-row .feature-col img {
   margin-bottom: 15px;
 }
+
 .features .feature-row .feature-col i {
   font-size: 2.5rem;
   margin-bottom: 20px;
   color: #28a745;
 }
+
 .features .feature-row .feature-col:hover {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
+
 .features .feature-row .feature-col h4 {
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 12px;
 }
+
 .features .feature-row .feature-col p {
   font-size: 0.9rem;
 }
@@ -664,24 +749,30 @@ header .head-ro .nav ul .btnll .btn {
   padding: 50px;
   background-color: #fff;
 }
+
 @media screen and (max-width: 940px) {
   .more-features {
     padding: 30px 10px;
   }
 }
+
 .more-features .more-featur-ro {
   margin-top: 20px;
 }
+
 .more-features .more-featur-ro .more-feat {
   display: flex;
   margin-bottom: 30px;
 }
+
 .more-features .more-featur-ro .more-feat .icon {
   padding: 15px;
 }
+
 .more-features .more-featur-ro .more-feat .icon img {
   width: 110px;
 }
+
 .more-features .more-featur-ro .more-feat .detail {
   padding: 15px;
 }
@@ -711,6 +802,7 @@ footer {
     padding: 50px 10px;
   }
 }
+
 footer h2 {
   font-size: 1.2rem;
   margin-bottom: 20px;
@@ -788,6 +880,7 @@ footer .tags ul li {
   padding: 20px;
   background-color: #ffffffbd;
 }
+
 .cop-ck h2 {
   font-size: 1.2rem;
   margin-bottom: 20px;
