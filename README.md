@@ -169,13 +169,16 @@ CLOUD-SERVICES-WEBSITE/
      ========================================================================================= -->
 ## Usage Guidelines
 
-This repository is shared for educational use.
+This repository is openly shared to support learning and knowledge exchange across the academic community.
 
 **For Students**  
-Refrence this project to study CSS layouts, responsive design patterns, and HTML5 structural elements for building landing pages.
+Use this project as reference material for understanding interactive system design, web development patterns, and Human Machine Interaction principles. The source code is available for study to facilitate self-paced learning and exploration of user-centric design patterns.
 
 **For Educators**  
-Can be used as a template for teaching front-end development basics.
+This project may serve as a practical lab example or supplementary teaching resource for Human Machine Interaction and Human Machine Interaction Laboratory courses (`CSC801` & `CSL801`). Attribution is appreciated when utilizing content.
+
+**For Researchers**  
+The documentation and design approach may provide insights into academic project structuring and interactive web application development.
 
 ---
 
