@@ -72,10 +72,18 @@ The development of this interface was guided by core **Human-Machine Interaction
 | **Responsive Design** | Fluid layouts that adapt to mobile, tablet, and desktop screens. |
 | **Pure CSS Implementation** | Styling achieved without reliance on heavy external frameworks. |
 | **Asset Optimization** | Fast loading times due to optimized code structure. |
+| **Interactive UX** | **Polished Hover Effects** on navigation and contact links for intuitive feedback. |
+| **Smart Carousels** | **Clean Testimonial & Blog Sliders** optimized for clutter-free readability. |
+| **Social Integration** | **High-Fidelity Social Media Poster** generated for project branding and sharing. |
+
+> [!NOTE]
+> ### Interactive Polish: The Cloud Aesthetic
+> We have refined the platform with a **Clean Blue Theme**, ensuring every element - from the centered carousel cards to the "hover-active" contact links - feels purposeful and premium. The visual language focuses on clarity and trust, essential for a cloud services provider. Complementing this experience, the application includes a custom-designed **Social Media Poster** that encapsulates the project's identity, featuring co-branding by **Amey & Mega**.
 
 ### Tech Stack
-- **Languages**: HTML5, CSS3
-- **Framework**: None (Vanilla CSS)
+- **Languages**: HTML5, CSS3, JavaScript (ES6+)
+- **Logic**: jQuery (Carousel & Interactive Elements)
+- **UI System**: Premium Cloud Theme (Vanilla CSS3 + Bootstrap Grid)
 - **Deployment**: GitHub Actions (Staging Workflow)
 - **Hosting**: GitHub Pages
 
