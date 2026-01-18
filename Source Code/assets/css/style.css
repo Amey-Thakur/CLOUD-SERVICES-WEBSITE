@@ -1076,10 +1076,7 @@ footer h3 {
   text-decoration: underline !important;
 }
 
-/* Fix: Move Owl Carousel dots to bottom */
+/* Fix: Hide Owl Carousel dots completely */
 .owl-theme .owl-dots {
-  position: absolute;
-  bottom: -30px;
-  width: 100%;
-  text-align: center;
+  display: none !important;
 }
