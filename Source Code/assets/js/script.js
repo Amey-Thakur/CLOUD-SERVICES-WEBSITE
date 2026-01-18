@@ -100,7 +100,7 @@ $(document).ready(function () {
         itemsDesktop: [1000, 2],
         itemsDesktopSmall: [979, 2],
         itemsTablet: [768, 1],
-        pagination: true,
+        pagination: false,
         navigation: true,
         navigationText: ["", ""],
         autoPlay: true
@@ -111,7 +111,7 @@ $(document).ready(function () {
         itemsDesktop: [1000, 2],
         itemsDesktopSmall: [979, 2],
         itemsTablet: [768, 1],
-        pagination: true,
+        pagination: false,
         navigation: true,
         navigationText: ["", ""],
         autoPlay: true
