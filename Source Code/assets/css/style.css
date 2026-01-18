@@ -1073,6 +1073,7 @@ footer h3 {
 
 .hover-primary:hover {
   color: var(--primary) !important;
+  text-decoration: underline !important;
 }
 
 /* Fix: Move Owl Carousel dots to bottom */
