@@ -14,7 +14,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
     <title>Services | Amey Thakur</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/fontawsom-all.min.css">
@@ -24,29 +24,46 @@
 </head>
 
 <body>
+
+    <!-- Loading Screen (Apple Style) -->
+    <div id="loading-screen">
+        <img id="loading-logo" src="assets/images/logo.png" alt="Loading" style="max-width: 150px;">
+        <div id="loading-bar-container">
+            <div id="loading-bar"></div>
+        </div>
+        <p id="loading-message">Initializing Cloud Services...</p>
+    </div>
     <!-- ***************************** Head Starts Here *********************************-->
     <div class="head-cover">
         <header id="menu-jk" class="container-fluid">
-            <div class="container">
-                <div class="row head-ro">
-                    <div class="col-md-3 logo">
+            <div class="container-fluid px-lg-5 px-3">
+                <div class="row head-ro align-items-center">
+                    <div class="col-md-2 col-6 logo">
                         <a href="index.html">
                             <img src="assets/images/logo.png" alt="Cloud Services Logo">
                         </a>
-                        <a class="d-md-none small-menu" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                    </div>
+                    <div class="col-6 d-md-none text-end d-flex align-items-center justify-content-end gap-3">
+                        <a href="#" class="btn btn-sm btn-primary px-3 py-2 text-white shadow-sm"
+                            style="font-size: 0.8rem; font-weight: 700;">Login / Sign Up</a>
+                        <a class="small-menu" data-bs-toggle="collapse" href="#collapseExample" role="button"
                             aria-expanded="false" aria-controls="collapseExample">
-                            <i class="fas d-lg-none  fa-bars"></i>
+                            <i class="fas fa-bars"></i>
                         </a>
                     </div>
-                    <div id="collapseExample" class="col-md-9  nav">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about_us.html">About Us</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="contact_us.html">Contact Us</a></li>
-                            <li class="btnll"><button class="btn btn-sm btn-primary">Login / Sign Up</button></li>
-                        </ul>
+                    <div id="collapseExample" class="col-md-8 col-12 collapse d-md-block nav">
+                        <div class="nav-links">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about_us.html">About Us</a></li>
+                                <li><a href="services.html" class="active">Services</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact_us.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 nav-btn text-end d-none d-md-block">
+                        <button class="btn btn-sm btn-primary py-2 px-4 shadow-sm">Login / Sign Up</button>
                     </div>
                 </div>
             </div>
@@ -54,20 +71,10 @@
     </div>
 
     <!--  ************************* Page Title Starts Here ************************** -->
-    <div class="page-nav no-margin row">
-        <div class="container">
-            <div class="row">
-                <h2>Services</h2>
-                <ul>
-                    <li> <a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                    <li><i class="fas fa-angle-double-right"></i> Services</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+
 
     <!--*************** Features Starts Here ***************-->
-    <section id="features" class="features container-fluid">
+    <section id="features" class="features container-fluid" style="padding-top: 140px;">
         <div class="container">
             <div class="row section-title">
                 <h2>Our Services</h2>
@@ -128,8 +135,8 @@
     <div class="footer-ablove">
         <div class="container">
             <div class="row">
-                <p>Are you looking for a consultant for your Business
-                    <button class="btn btn-default">Get Quote</button>
+                <p>Are you looking for a consultant for your Business?
+                    <a href="contact_us.html" class="btn btn-default">Get Quote</a>
                 </p>
             </div>
         </div>
@@ -137,87 +144,74 @@
 
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-md-3 about">
-                    <h2>About Us</h2>
+            <div class="row justify-content-between">
+                <div class="col-md-4 about">
+                    <h2>Visionary Infrastructure</h2>
                     <p>We provide secure, scalable, and reliable cloud solutions tailored to your business needs.</p>
-
+                    <h3>Contact Us</h3>
                     <div class="foot-address">
-                        <div class="icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
+                        <i class="fas fa-map-marker-alt"></i>
                         <div class="addet">
-                            Terna Engineering College, Nerul<br>
-                            Navi Mumbai, Maharashtra, India
+                            <a href="https://www.google.com/maps?q=Terna+Engineering+College+Nerul+Navi+Mumbai"
+                                target="_blank">
+                                Terna Engineering College, Nerul<br>
+                                Navi Mumbai, Maharashtra, India
+                            </a>
                         </div>
                     </div>
                     <div class="foot-address">
-                        <div class="icon">
-                            <i class="far fa-envelope-open"></i>
-                        </div>
+                        <i class="far fa-envelope-open"></i>
                         <div class="addet">
-                            ameythakur20@gmail.com <br>
+                            <a href="mailto:ameythakur20@gmail.com">ameythakur20@gmail.com</a>
                         </div>
                     </div>
                     <div class="foot-address">
-                        <div class="icon">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
+                        <i class="fas fa-mobile-alt"></i>
                         <div class="addet">
-                            +91 9167078027 <br>
+                            <a href="tel:+919167078027">+91 9167078027</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 fotblog">
-                    <h2>From latest Blog</h2>
-                    <div class="blohjb">
-                        <p>Best practices for cloud security in 2022.</p>
-                        <span>13-03-2022</span>
-                    </div>
-                    <div class="blohjb">
-                        <p>Optimizing server performance for high traffic.</p>
-                        <span>10-02-2022</span>
-                    </div>
-                    <div class="blohjb">
-                        <p>Introduction to Cloud Computing architecture.</p>
-                        <span>01-01-2022</span>
-                    </div>
-                </div>
-                <div class="col-md-3 glink">
+                <div class="col-md-2 glink">
+                    <h2>Quick Links</h2>
                     <ul>
-                        <li><a href="index.html"><i class="fas fa-angle-double-right"></i>Home</a></li>
-                        <li><a href="about_us.html"><i class="fas fa-angle-double-right"></i>About Us</a></li>
-                        <li><a href="services.html"><i class="fas fa-angle-double-right"></i>Services</a></li>
-                        <li><a href="blog.html"><i class="fas fa-angle-double-right"></i>Blog</a></li>
-                        <li><a href="contact_us.html"><i class="fas fa-angle-double-right"></i>Contact Us</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact_us.html">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3 tags">
-                    <h2>Easy Tags</h2>
-                    <ul>
-                        <li>Cloud</li>
-                        <li>Web Design</li>
-                        <li>Security</li>
-                        <li>Node Js</li>
-                        <li>React</li>
-                        <li>Angular Js</li>
-                        <li>Vue Js</li>
-                    </ul>
+                <div class="col-md-4 fotblog">
+                    <h2>Latest Insights</h2>
+                    <div class="blohjb">
+                        <a href="blog.html">
+                            <p>Securing Multi-Cloud Environments</p>
+                        </a>
+                        <span>January 15, 2022</span>
+                    </div>
+                    <div class="blohjb">
+                        <a href="blog.html">
+                            <p>The Future of Serverless Scaling</p>
+                        </a>
+                        <span>January 10, 2022</span>
+                    </div>
+                    <div class="blohjb">
+                        <a href="blog.html">
+                            <p>SaaS vs PaaS vs IaaS</p>
+                        </a>
+                        <span>January 05, 2022</span>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
     <div class="copy">
-        <div class="container">
-            <a href="https://github.com/Amey-Thakur" target="_blank">2022 &copy; All Rights Reserved | Designed and
-                Developed by Amey Thakur & Mega Satish</a>
-            <span>
-                <a><i class="fab fa-github"></i></a>
-                <a><i class="fab fa-google-plus-g"></i></a>
-                <a><i class="fab fa-pinterest-p"></i></a>
-                <a><i class="fab fa-twitter"></i></a>
-                <a><i class="fab fa-facebook-f"></i></a>
-            </span>
+        <div class="container text-center">
+            <p>2022 &copy; All Rights Reserved | Designed and Developed by
+                <a href="https://github.com/Amey-Thakur" target="_blank">Amey Thakur</a> &
+                <a href="https://github.com/msatmod" target="_blank">Mega Satish</a>
+            </p>
         </div>
     </div>
 

@@ -20,7 +20,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
     <title>Cloud Services | Amey Thakur</title>
 
     <!-- CSS Libraries -->
@@ -34,29 +34,46 @@
 </head>
 
 <body>
+
+    <!-- Loading Screen (Apple Style) -->
+    <div id="loading-screen">
+        <img id="loading-logo" src="assets/images/logo.png" alt="Loading" style="max-width: 150px;">
+        <div id="loading-bar-container">
+            <div id="loading-bar"></div>
+        </div>
+        <p id="loading-message">Initializing Cloud Services...</p>
+    </div>
     <!-- ***************************** Head Starts Here *********************************-->
     <div class="head-cover">
         <header id="menu-jk" class="container-fluid">
-            <div class="container">
-                <div class="row head-ro">
-                    <div class="col-md-3 logo">
+            <div class="container-fluid px-lg-5 px-3">
+                <div class="row head-ro align-items-center">
+                    <div class="col-md-2 col-6 logo">
                         <a href="index.html">
                             <img src="assets/images/logo.png" alt="Cloud Services Logo">
                         </a>
-                        <a class="d-md-none small-menu" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                    </div>
+                    <div class="col-6 d-md-none text-end d-flex align-items-center justify-content-end gap-3">
+                        <a href="#" class="btn btn-sm btn-primary px-3 py-2 text-white shadow-sm"
+                            style="font-size: 0.8rem; font-weight: 700;">Login / Sign Up</a>
+                        <a class="small-menu" data-bs-toggle="collapse" href="#collapseExample" role="button"
                             aria-expanded="false" aria-controls="collapseExample">
-                            <i class="fas d-lg-none  fa-bars"></i>
+                            <i class="fas fa-bars"></i>
                         </a>
                     </div>
-                    <div id="collapseExample" class="col-md-9  nav">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about_us.html">About Us</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="contact_us.html">Contact Us</a></li>
-                            <li class="btnll"><button class="btn btn-sm btn-primary">Login / Sign Up</button></li>
-                        </ul>
+                    <div id="collapseExample" class="col-md-8 col-12 collapse d-md-block nav">
+                        <div class="nav-links">
+                            <ul>
+                                <li><a href="index.html" class="active">Home</a></li>
+                                <li><a href="about_us.html">About Us</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact_us.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 nav-btn text-end d-none d-md-block">
+                        <button class="btn btn-sm btn-primary py-2 px-4 shadow-sm">Login / Sign Up</button>
                     </div>
                 </div>
             </div>
@@ -66,23 +83,20 @@
 
     <!-- ***************************** Banner Starts Here *********************************-->
     <section class="container-fluid banner-container">
-        <div class="container">
-            <div class="row banner-row">
+        <div class="container-fluid px-lg-5 px-3">
+            <div class="row banner-row align-items-center">
                 <div class="col-md-6 banner-txt">
-                    <h1>We Provide Best and Very Secure Cloud Services</h1>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout.
-                        The point of using Lorem Ipsum is that it has.</p>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout.
-                        The point of using Lorem Ipsum is that it has.</p>
-                    <div class="btn-row row">
-                        <button class="btn btn-primary">Read More</button>
-                        <button class="btn btn-outline-primary">Create Account</button>
+                    <h1>Next-Gen Cloud Solutions for the Digital Era</h1>
+                    <p>Experience the pinnacle of scalable, secure, and intuitive infrastructure. Our platform is
+                        engineered to empower your business growth with lightning-fast performance and industrial-grade
+                        security.</p>
+                    <div class="btn-row">
+                        <button class="btn btn-primary">Get Started</button>
+                        <button class="btn btn-outline-primary">Learn More</button>
                     </div>
                 </div>
-                <div class="col-md-6 banner-img">
-                    <img src="assets/images/slider.png" alt="">
+                <div class="col-md-6 banner-img text-end">
+                    <img src="assets/images/slider.png" alt="Cloud Infrastructure Illustration">
                 </div>
             </div>
         </div>
@@ -93,35 +107,36 @@
         <div class="container">
             <div class="row key-ro">
                 <div class="col-md-4 keycol">
-                    <div class="key-cover">
+                    <div class="key-cover glass">
                         <div class="logo-cc">
-                            <img src="assets/images/data-transfer.svg" alt="">
+                            <img src="assets/images/data-transfer.svg" alt="Security Icon">
                         </div>
                         <div class="text-cc">
-                            <h3>High Data Security</h3>
-                            <p>It is a long established fact that a reader will be distracted by the.</p>
+                            <h3>Total Data Privacy</h3>
+                            <p>End-to-end encryption and compliance-first security for your sensitive assets.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 keycol">
-                    <div class="key-cover">
+                    <div class="key-cover glass">
                         <div class="logo-cc">
-                            <img src="assets/images/cloud-network.svg" alt="">
+                            <img src="assets/images/cloud-network.svg" alt="Network Icon">
                         </div>
                         <div class="text-cc">
-                            <h3>Multiple Data Centers</h3>
-                            <p>It is a long established fact that a reader will be distracted by the.</p>
+                            <h3>Global Edge Network</h3>
+                            <p>Distributed data centers worldwide ensuring ultra-low latency and 99.9% uptime.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 keycol">
-                    <div class="key-cover">
+                    <div class="key-cover glass">
                         <div class="logo-cc">
-                            <img src="assets/images/support.svg" alt="">
+                            <img src="assets/images/support.svg" alt="Support Icon">
                         </div>
                         <div class="text-cc">
-                            <h3>24 x 7 Support</h3>
-                            <p>It is a long established fact that a reader will be distracted by the.</p>
+                            <h3>Proactive Support</h3>
+                            <p>Our experts are available 24/7 to ensure your operations run smoothly without
+                                interruption.</p>
                         </div>
                     </div>
                 </div>
@@ -134,18 +149,19 @@
     <section class="container-fluid about-coo">
         <div class="container">
             <div class="row section-title">
-                <h2>About Us</h2>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
-                    looking at its layout. The point of using Lorem Ipsum is that it has.</p>
+                <h2>Visionary Infrastructure</h2>
+                <p>We are dedicated to building the future of cloud computing, combining power with elegance and
+                    security with simplicity.</p>
             </div>
             <div class="row about-row">
                 <div class="col-md-5 about-img">
                     <img src="assets/images/about.png" alt="">
                 </div>
                 <div class="col-md-6 about-text">
-                    <h1>We are the Leading Cloud Service Provider</h1>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout. The point of using Lorem Ipsum is that it has.</p>
+                    <h1>Leaders in Cloud Innovation</h1>
+                    <p>With over a decade of experience, we provide cutting-edge solutions that scale with your
+                        ambitions. From startups to enterprises, our infrastructure is the backbone of digital success.
+                    </p>
                     <div class="about-featur">
                         <ul>
                             <li><i class="fa fa-check"></i> Boost SEO Sharing</li>
@@ -166,8 +182,9 @@
     <section id="features" class="features container-fluid">
         <div class="container">
             <div class="row section-title">
-                <h2>Our Services</h2>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                <h2>Core Compute Services</h2>
+                <p>Comprehensive tools and infrastructure designed for modern developers and enterprise-grade
+                    performance.</p>
             </div>
             <div class="row mt-5 feature-row">
                 <div class="col-md-4">
@@ -227,44 +244,53 @@
         <div class="container">
             <div class="section-title row">
                 <h2>Our Blog</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Stay ahead of the curve with our latest insights into cloud security, architecture, and innovation.
+                </p>
             </div>
 
-            <div class="row mt-5 blog-row">
-                <div class="col-md-6 col-sm-12">
-                    <div class="blog-singe no-margin row">
-                        <div class="col-sm-5 blog-img-tab">
-                            <img src="assets/images/blog/b1.png" alt="">
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <div id="blog-slider" class="owl-carousel">
+                        <div class="blog-singe no-margin row" style="margin: 10px;">
+                            <div class="col-sm-5 blog-img-tab">
+                                <img src="assets/images/blog/b1.png" alt="Multi-Cloud">
+                            </div>
+                            <div class="col-sm-7 blog-content-tab">
+                                <h2>Securing Multi-Cloud Environments</h2>
+                                <p class="mb-2 text-muted fw-bold">January 15, 2022</p>
+                                <p class="blog-desic">Learn the latest strategies for protecting your assets across
+                                    multiple
+                                    cloud providers with zero-trust architecture.</p>
+                                <a href="blog.html">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
                         </div>
-                        <div class="col-sm-7 blog-content-tab">
-                            <h2>Curabit finibus dui sem.</h2>
-                            <p><i class="fas fa-user"><small>Admin</small></i> <i
-                                    class="fas fa-eye"><small>(12)</small></i> <i
-                                    class="fas fa-comments"><small>(12)</small></i></p>
-                            <p class="blog-desic">Lorem Ipsum, type lorem then press the shortcut. The default keyboard
-                                shortcut is the same keyboard shortcut is the </p>
-                            <a href="blog.html">Read More <i class="fas fa-arrow-right"></i></a>
+                        <div class="blog-singe no-margin row" style="margin: 10px;">
+                            <div class="col-sm-5 blog-img-tab">
+                                <img src="assets/images/blog/b2.png" alt="Serverless">
+                            </div>
+                            <div class="col-sm-7 blog-content-tab">
+                                <h2>The Future of Serverless Scaling</h2>
+                                <p class="mb-2 text-muted fw-bold">January 10, 2022</p>
+                                <p class="blog-desic">Discover how serverless computing is evolving to handle massive
+                                    concurrency and global edge deployments.</p>
+                                <a href="blog.html">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="blog-singe no-margin row" style="margin: 10px;">
+                            <div class="col-sm-5 blog-img-tab">
+                                <img src="assets/images/blog/b1.png" alt="SaaS vs PaaS">
+                            </div>
+                            <div class="col-sm-7 blog-content-tab">
+                                <h2>SaaS vs PaaS vs IaaS</h2>
+                                <p class="mb-2 text-muted fw-bold">January 05, 2022</p>
+                                <p class="blog-desic">Understanding the key differences and choosing the right service
+                                    model
+                                    for your business needs.</p>
+                                <a href="blog.html">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="blog-singe no-margin row">
-                        <div class="col-sm-5 blog-img-tab">
-                            <img src="assets/images/blog/b2.png" alt="">
-                        </div>
-                        <div class="col-sm-7 blog-content-tab">
-                            <h2>Excepteur sint occaecat</h2>
-                            <p><i class="fas fa-user"><small>Admin</small></i> <i
-                                    class="fas fa-eye"><small>(12)</small></i> <i
-                                    class="fas fa-comments"><small>(12)</small></i></p>
-                            <p class="blog-desic">Lorem Ipsum, type lorem then press the shortcut. The default keyboard
-                                shortcut is the same keyboard shortcut is the </p>
-                            <a href="blog.html">Read More <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
         </div>
     </div>
@@ -277,51 +303,48 @@
         <div class="container">
             <div class="section-title row">
                 <h2>Testimonial</h2>
-                <p>Take a look at what people say about us</p>
+                <p>Join thousands of satisfied enterprises scaling with confidence on our platform.</p>
             </div>
-            <div class="row mt-5">
-                <div class="col-md-offset-2 float-auto col-md-10">
+            <div class="row mt-3">
+                <div class="col-md-12">
                     <div id="testimonial-slider" class="owl-carousel">
                         <div class="testimonial">
                             <div class="pic">
-                                <img src="assets/images/testimonial/member-01.jpg" alt="">
+                                <img src="assets/images/team/amey.png" alt="Amey Thakur">
                             </div>
                             <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dolor ipsum
-                                molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus dignissimos.
-                                Lorem ipsum dolor sit amet, consectetur.
+                                "Switching to this cloud infrastructure was the best decision for our startup. The
+                                latency has dropped by 40% and the support team is second to none."
                             </p>
-                            <h3 class="title">Satisfied Client
+                            <h3 class="title">Amey Thakur
                                 <span class="post"> - Developer</span>
                             </h3>
                         </div>
 
-                        <div class="testimonial">
+                        <div class="testimonial glass">
                             <div class="pic">
-                                <img src="assets/images/testimonial/member-02.jpg" alt="">
+                                <img src="assets/images/team/mega.jpg" alt="Mega Satish">
                             </div>
                             <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dolor ipsum
-                                molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus dignissimos.
-                                Lorem ipsum dolor sit amet, consectetur.
+                                "The most intuitive cloud platform we've ever used. Migrating our legacy systems was
+                                seamless, and the performance boost was immediate."
                             </p>
-                            <h3 class="title">Happy Customer
-                                <span class="post"> - Teacher</span>
+                            <h3 class="title">Mega Satish
+                                <span class="post"> - CTO</span>
                             </h3>
                         </div>
 
 
-                        <div class="testimonial">
+                        <div class="testimonial glass">
                             <div class="pic">
-                                <img src="assets/images/testimonial/member-02.jpg" alt="">
+                                <img src="assets/images/team/hasan.png" alt="Hasan Rizvi">
                             </div>
                             <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dolor ipsum
-                                molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus dignissimos.
-                                Lorem ipsum dolor sit amet, consectetur.
+                                "Security and uptime are our top priorities, and this platform delivers on both with
+                                incredible speed. It's truly a game-changer for our DevOps team."
                             </p>
-                            <h3 class="title">Happy Customer
-                                <span class="post"> - Teacher</span>
+                            <h3 class="title">Hasan Satish
+                                <span class="post"> - Lead Engineer</span>
                             </h3>
                         </div>
                     </div>
@@ -339,8 +362,8 @@
     <div class="footer-ablove">
         <div class="container">
             <div class="row">
-                <p>Are you looking for a consultant for your Business
-                    <button class="btn btn-default">Get Quote</button>
+                <p>Are you looking for a consultant for your Business?
+                    <a href="contact_us.html" class="btn btn-default">Get Quote</a>
                 </p>
             </div>
         </div>
@@ -348,87 +371,74 @@
 
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-md-3 about">
-                    <h2>About Us</h2>
+            <div class="row justify-content-between">
+                <div class="col-md-4 about">
+                    <h2>Visionary Infrastructure</h2>
                     <p>We provide secure, scalable, and reliable cloud solutions tailored to your business needs.</p>
-
+                    <h3>Contact Us</h3>
                     <div class="foot-address">
-                        <div class="icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
+                        <i class="fas fa-map-marker-alt"></i>
                         <div class="addet">
-                            Terna Engineering College, Nerul<br>
-                            Navi Mumbai, Maharashtra, India
+                            <a href="https://www.google.com/maps?q=Terna+Engineering+College+Nerul+Navi+Mumbai"
+                                target="_blank">
+                                Terna Engineering College, Nerul<br>
+                                Navi Mumbai, Maharashtra, India
+                            </a>
                         </div>
                     </div>
                     <div class="foot-address">
-                        <div class="icon">
-                            <i class="far fa-envelope-open"></i>
-                        </div>
+                        <i class="far fa-envelope-open"></i>
                         <div class="addet">
-                            ameythakur20@gmail.com <br>
+                            <a href="mailto:ameythakur20@gmail.com">ameythakur20@gmail.com</a>
                         </div>
                     </div>
                     <div class="foot-address">
-                        <div class="icon">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
+                        <i class="fas fa-mobile-alt"></i>
                         <div class="addet">
-                            +91 9167078027 <br>
+                            <a href="tel:+919167078027">+91 9167078027</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 fotblog">
-                    <h2>From latest Blog</h2>
-                    <div class="blohjb">
-                        <p>Best practices for cloud security in 2022.</p>
-                        <span>13-03-2022</span>
-                    </div>
-                    <div class="blohjb">
-                        <p>Optimizing server performance for high traffic.</p>
-                        <span>10-02-2022</span>
-                    </div>
-                    <div class="blohjb">
-                        <p>Introduction to Cloud Computing architecture.</p>
-                        <span>01-01-2022</span>
-                    </div>
-                </div>
-                <div class="col-md-3 glink">
+                <div class="col-md-2 glink">
+                    <h2>Quick Links</h2>
                     <ul>
-                        <li><a href="index.html"><i class="fas fa-angle-double-right"></i>Home</a></li>
-                        <li><a href="about_us.html"><i class="fas fa-angle-double-right"></i>About Us</a></li>
-                        <li><a href="services.html"><i class="fas fa-angle-double-right"></i>Services</a></li>
-                        <li><a href="blog.html"><i class="fas fa-angle-double-right"></i>Blog</a></li>
-                        <li><a href="contact_us.html"><i class="fas fa-angle-double-right"></i>Contact Us</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact_us.html">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3 tags">
-                    <h2>Easy Tags</h2>
-                    <ul>
-                        <li>Finance</li>
-                        <li>Web Design</li>
-                        <li>Internet Pro</li>
-                        <li>Node Js</li>
-                        <li>Java Swing</li>
-                        <li>Angular Js</li>
-                        <li>Vue Js</li>
-                    </ul>
+                <div class="col-md-4 fotblog">
+                    <h2>Latest Insights</h2>
+                    <div class="blohjb">
+                        <a href="blog.html">
+                            <p>Securing Multi-Cloud Environments</p>
+                        </a>
+                        <span>January 15, 2022</span>
+                    </div>
+                    <div class="blohjb">
+                        <a href="blog.html">
+                            <p>The Future of Serverless Scaling</p>
+                        </a>
+                        <span>January 10, 2022</span>
+                    </div>
+                    <div class="blohjb">
+                        <a href="blog.html">
+                            <p>SaaS vs PaaS vs IaaS</p>
+                        </a>
+                        <span>January 05, 2022</span>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
     <div class="copy">
-        <div class="container">
-            <a href="https://github.com/Amey-Thakur" target="_blank">2022 &copy; All Rights Reserved | Designed and
-                Developed by Amey Thakur & Mega Satish</a>
-            <span>
-                <a><i class="fab fa-github"></i></a>
-                <a><i class="fab fa-google-plus-g"></i></a>
-                <a><i class="fab fa-pinterest-p"></i></a>
-                <a><i class="fab fa-twitter"></i></a>
-                <a><i class="fab fa-facebook-f"></i></a>
-            </span>
+        <div class="container text-center">
+            <p>2022 &copy; All Rights Reserved | Designed and Developed by
+                <a href="https://github.com/Amey-Thakur" target="_blank">Amey Thakur</a> &
+                <a href="https://github.com/msatmod" target="_blank">Mega Satish</a>
+            </p>
         </div>
     </div>
 

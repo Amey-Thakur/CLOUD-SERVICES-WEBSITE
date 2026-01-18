@@ -14,7 +14,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
     <title>Contact Us | Amey Thakur</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/fontawsom-all.min.css">
@@ -24,29 +24,46 @@
 </head>
 
 <body>
+
+    <!-- Loading Screen (Apple Style) -->
+    <div id="loading-screen">
+        <img id="loading-logo" src="assets/images/logo.png" alt="Loading" style="max-width: 150px;">
+        <div id="loading-bar-container">
+            <div id="loading-bar"></div>
+        </div>
+        <p id="loading-message">Initializing Cloud Services...</p>
+    </div>
     <!-- ***************************** Head Starts Here *********************************-->
     <div class="head-cover">
         <header id="menu-jk" class="container-fluid">
-            <div class="container">
-                <div class="row head-ro">
-                    <div class="col-md-3 logo">
+            <div class="container-fluid px-lg-5 px-3">
+                <div class="row head-ro align-items-center">
+                    <div class="col-md-2 col-6 logo">
                         <a href="index.html">
                             <img src="assets/images/logo.png" alt="Cloud Services Logo">
                         </a>
-                        <a class="d-md-none small-menu" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                    </div>
+                    <div class="col-6 d-md-none text-end d-flex align-items-center justify-content-end gap-3">
+                        <a href="#" class="btn btn-sm btn-primary px-3 py-2 text-white shadow-sm"
+                            style="font-size: 0.8rem; font-weight: 700;">Login / Sign Up</a>
+                        <a class="small-menu" data-bs-toggle="collapse" href="#collapseExample" role="button"
                             aria-expanded="false" aria-controls="collapseExample">
-                            <i class="fas d-lg-none  fa-bars"></i>
+                            <i class="fas fa-bars"></i>
                         </a>
                     </div>
-                    <div id="collapseExample" class="col-md-9  nav">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about_us.html">About Us</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="contact_us.html">Contact Us</a></li>
-                            <li class="btnll"><button class="btn btn-sm btn-primary">Login / Sign Up</button></li>
-                        </ul>
+                    <div id="collapseExample" class="col-md-8 col-12 collapse d-md-block nav">
+                        <div class="nav-links">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about_us.html">About Us</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact_us.html" class="active">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 nav-btn text-end d-none d-md-block">
+                        <button class="btn btn-sm btn-primary py-2 px-4 shadow-sm">Login / Sign Up</button>
                     </div>
                 </div>
             </div>
@@ -58,59 +75,74 @@
         <div class="container">
             <div class="row">
                 <h2>Contact Us</h2>
-                <ul>
-                    <li> <a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                    <li><i class="fas fa-angle-double-right"></i> Contact Us</li>
-                </ul>
+
             </div>
         </div>
     </div>
 
     <!--  ************************* Contact Us Starts Here ************************** -->
-    <div class="row contact-rooo no-margin">
-        <div class="container">
+    <div style="margin-top:0px;" class="row no-margin">
+        <div class="container py-5">
             <div class="row">
-                <div style="padding:20px" class="col-sm-7">
-                    <h2>Contact Form</h2> <br>
-                    <div class="row cont-row">
-                        <div class="col-sm-3"><label>Enter Name </label><span>:</span></div>
-                        <div class="col-sm-8"><input type="text" placeholder="Enter Name" name="name"
-                                class="form-control input-sm"></div>
-                    </div>
-                    <div class="row cont-row">
-                        <div class="col-sm-3"><label>Email Address </label><span>:</span></div>
-                        <div class="col-sm-8"><input type="text" name="name" placeholder="Enter Email Address"
-                                class="form-control input-sm"></div>
-                    </div>
-                    <div class="row cont-row">
-                        <div class="col-sm-3"><label>Mobile Number</label><span>:</span></div>
-                        <div class="col-sm-8"><input type="text" name="name" placeholder="Enter Mobile Number"
-                                class="form-control input-sm"></div>
-                    </div>
-                    <div class="row cont-row">
-                        <div class="col-sm-3"><label>Enter Message</label><span>:</span></div>
-                        <div class="col-sm-8">
-                            <textarea rows="5" placeholder="Enter Your Message"
-                                class="form-control input-sm"></textarea>
+                <div class="col-md-6 offset-md-1 col-sm-12">
+                    <div class="contact-form bg-white shadow-lg p-4 rounded-3 border-0">
+                        <h2 class="mb-4 fw-bold text-primary">Send us a Message</h2>
+                        <div class="row mb-3">
+                            <div class="col-sm-12">
+                                <input type="text" placeholder="Your Full Name" name="name"
+                                    class="form-control bg-light border-0 p-3 rounded-2 shadow-sm">
+                            </div>
                         </div>
-                    </div>
-                    <div style="margin-top:10px;" class="row">
-                        <div style="padding-top:10px;" class="col-sm-3"><label></label></div>
-                        <div class="col-sm-8">
-                            <button class="btn btn-primary btn-sm">Send Message</button>
+                        <div class="row mb-3">
+                            <div class="col-sm-12">
+                                <input type="email" placeholder="Email Address" name="email"
+                                    class="form-control bg-light border-0 p-3 rounded-2 shadow-sm">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-sm-12">
+                                <input type="text" placeholder="Subject" name="subject"
+                                    class="form-control bg-light border-0 p-3 rounded-2 shadow-sm">
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-sm-12">
+                                <textarea rows="5" placeholder="Your Message"
+                                    class="form-control bg-light border-0 p-3 rounded-2 shadow-sm"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <button class="btn btn-primary w-100 py-3 rounded-2 fw-bold">Send Message </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-5">
-                    <div style="margin:50px" class="serv">
-                        <h2 style="margin-top:10px;">Address</h2>
-                        <br>
-                        <p>Terna Engineering College, Nerul, <br>
-                            Navi Mumbai, Maharashtra<br>
-                            India<br>
-                            Phone: +91 9167078027<br>
-                            Email: ameythakur20@gmail.com<br>
-                        </p>
+                <div class="col-sm-5 ps-md-5 mt-5 mt-sm-0 align-self-center">
+                    <div class="address-details">
+                        <h2 class="mb-4 fw-bold">Get in Touch</h2>
+                        <div class="d-flex mb-4">
+                            <div class="icon me-3 text-primary fs-4"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h5 class="mb-1">Location</h5>
+                                <p class="text-muted">Terna Engineering College, Nerul, Navi Mumbai, Maharashtra, India
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="icon me-3 text-primary fs-4"><i class="far fa-envelope"></i></div>
+                            <div>
+                                <h5 class="mb-1">Email</h5>
+                                <p class="text-muted">ameythakur20@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="icon me-3 text-primary fs-4"><i class="fas fa-mobile-alt"></i></div>
+                            <div>
+                                <h5 class="mb-1">Phone</h5>
+                                <p class="text-muted">+91 9167078027</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -121,8 +153,8 @@
     <div class="footer-ablove">
         <div class="container">
             <div class="row">
-                <p>Are you looking for a consultant for your Business
-                    <button class="btn btn-default">Get Quote</button>
+                <p>Are you looking for a consultant for your Business?
+                    <a href="contact_us.html" class="btn btn-default">Get Quote</a>
                 </p>
             </div>
         </div>
@@ -130,87 +162,74 @@
 
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-md-3 about">
-                    <h2>About Us</h2>
+            <div class="row justify-content-between">
+                <div class="col-md-4 about">
+                    <h2>Visionary Infrastructure</h2>
                     <p>We provide secure, scalable, and reliable cloud solutions tailored to your business needs.</p>
-
+                    <h3>Contact Us</h3>
                     <div class="foot-address">
-                        <div class="icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
+                        <i class="fas fa-map-marker-alt"></i>
                         <div class="addet">
-                            Terna Engineering College, Nerul<br>
-                            Navi Mumbai, Maharashtra, India
+                            <a href="https://www.google.com/maps?q=Terna+Engineering+College+Nerul+Navi+Mumbai"
+                                target="_blank">
+                                Terna Engineering College, Nerul<br>
+                                Navi Mumbai, Maharashtra, India
+                            </a>
                         </div>
                     </div>
                     <div class="foot-address">
-                        <div class="icon">
-                            <i class="far fa-envelope-open"></i>
-                        </div>
+                        <i class="far fa-envelope-open"></i>
                         <div class="addet">
-                            ameythakur20@gmail.com <br>
+                            <a href="mailto:ameythakur20@gmail.com">ameythakur20@gmail.com</a>
                         </div>
                     </div>
                     <div class="foot-address">
-                        <div class="icon">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
+                        <i class="fas fa-mobile-alt"></i>
                         <div class="addet">
-                            +91 9167078027 <br>
+                            <a href="tel:+919167078027">+91 9167078027</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 fotblog">
-                    <h2>From latest Blog</h2>
-                    <div class="blohjb">
-                        <p>Best practices for cloud security in 2022.</p>
-                        <span>13-03-2022</span>
-                    </div>
-                    <div class="blohjb">
-                        <p>Optimizing server performance for high traffic.</p>
-                        <span>10-02-2022</span>
-                    </div>
-                    <div class="blohjb">
-                        <p>Introduction to Cloud Computing architecture.</p>
-                        <span>01-01-2022</span>
-                    </div>
-                </div>
-                <div class="col-md-3 glink">
+                <div class="col-md-2 glink">
+                    <h2>Quick Links</h2>
                     <ul>
-                        <li><a href="index.html"><i class="fas fa-angle-double-right"></i>Home</a></li>
-                        <li><a href="about_us.html"><i class="fas fa-angle-double-right"></i>About Us</a></li>
-                        <li><a href="services.html"><i class="fas fa-angle-double-right"></i>Services</a></li>
-                        <li><a href="blog.html"><i class="fas fa-angle-double-right"></i>Blog</a></li>
-                        <li><a href="contact_us.html"><i class="fas fa-angle-double-right"></i>Contact Us</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact_us.html">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3 tags">
-                    <h2>Easy Tags</h2>
-                    <ul>
-                        <li>Cloud</li>
-                        <li>Web Design</li>
-                        <li>Security</li>
-                        <li>Node Js</li>
-                        <li>React</li>
-                        <li>Angular Js</li>
-                        <li>Vue Js</li>
-                    </ul>
+                <div class="col-md-4 fotblog">
+                    <h2>Latest Insights</h2>
+                    <div class="blohjb">
+                        <a href="blog.html">
+                            <p>Securing Multi-Cloud Environments</p>
+                        </a>
+                        <span>January 15, 2022</span>
+                    </div>
+                    <div class="blohjb">
+                        <a href="blog.html">
+                            <p>The Future of Serverless Scaling</p>
+                        </a>
+                        <span>January 10, 2022</span>
+                    </div>
+                    <div class="blohjb">
+                        <a href="blog.html">
+                            <p>SaaS vs PaaS vs IaaS</p>
+                        </a>
+                        <span>January 05, 2022</span>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
     <div class="copy">
-        <div class="container">
-            <a href="https://github.com/Amey-Thakur" target="_blank">2022 &copy; All Rights Reserved | Designed and
-                Developed by Amey Thakur & Mega Satish</a>
-            <span>
-                <a><i class="fab fa-github"></i></a>
-                <a><i class="fab fa-google-plus-g"></i></a>
-                <a><i class="fab fa-pinterest-p"></i></a>
-                <a><i class="fab fa-twitter"></i></a>
-                <a><i class="fab fa-facebook-f"></i></a>
-            </span>
+        <div class="container text-center">
+            <p>2022 &copy; All Rights Reserved | Designed and Developed by
+                <a href="https://github.com/Amey-Thakur" target="_blank">Amey Thakur</a> &
+                <a href="https://github.com/msatmod" target="_blank">Mega Satish</a>
+            </p>
         </div>
     </div>
 
