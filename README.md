@@ -102,7 +102,8 @@ CLOUD-SERVICES-WEBSITE/
 ├── Source Code/                     # Primary Application Layer
 │   ├── css/                         # Stylesheets
 │   ├── images/                      # Website Imagery
-│   └── index.html                   # Landing Page
+│   ├── index.html                   # Landing Page
+│   └── poster.html                  # Social Media Preview Poster
 │
 ├── .gitattributes                   # Git configuration
 ├── CITATION.cff                     # Scholarly Citation Metadata
