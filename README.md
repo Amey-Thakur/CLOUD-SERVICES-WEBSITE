@@ -82,9 +82,10 @@ The development of this interface was guided by core **Human-Machine Interaction
 
 ### Tech Stack
 - **Languages**: HTML5, CSS3, JavaScript (ES6+)
-- **Logic**: jQuery (Carousel & Interactive Elements)
-- **UI System**: Premium Cloud Theme (Vanilla CSS3 + Bootstrap Grid)
-- **Deployment**: GitHub Actions (Staging Workflow)
+- **Logic**: jQuery (DOM Manipulation & Carousel Logic)
+- **Imaging**: **FontAwesome 6** (Vector Iconography & Thematic Visuals)
+- **UI System**: Premium Cloud Theme (Custom Vanilla CSS3)
+- **Deployment**: GitHub Actions (Staging & Continuous Delivery Workflow)
 - **Hosting**: GitHub Pages
 
 ---
