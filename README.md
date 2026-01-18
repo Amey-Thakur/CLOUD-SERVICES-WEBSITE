@@ -78,7 +78,7 @@ The development of this interface was guided by core **Human-Machine Interaction
 
 > [!NOTE]
 > ### Interactive Polish: The Cloud Aesthetic
-> We have refined the platform with a **Clean Blue Theme**, ensuring every element - from the centered carousel cards to the "hover-active" contact links - feels purposeful and premium. The visual language focuses on clarity and trust, essential for a cloud services provider. Complementing this experience, the application includes a custom-designed **Social Media Poster** that encapsulates the project's identity, featuring co-branding by **Amey & Mega**.
+> We have refined the platform with a **Clean Blue Theme**, ensuring every element, from the centered carousel cards to the "hover-active" contact links, feels purposeful and premium. The visual language focuses on clarity and trust, essential for a cloud services provider. Complementing this experience, the application includes a custom-designed **Social Media Poster** that visually encapsulates the project's brand identity.
 
 ### Tech Stack
 - **Languages**: HTML5, CSS3, JavaScript (ES6+)
