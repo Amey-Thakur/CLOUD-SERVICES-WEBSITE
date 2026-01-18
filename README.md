@@ -96,8 +96,8 @@ CLOUD-SERVICES-WEBSITE/
 │   └── SPECIFICATION.md             # Architecture & Design Specification
 │
 ├── Mega/                            # Archival Attribution Assets
-│   ├── Filly.jpg                       # Companion (Filly)
-│   └── Mega.png                        # Author Profile Image (Mega Satish)
+│   ├── Filly.jpg                    # Companion (Filly)
+│   └── Mega.png                     # Author Profile Image (Mega Satish)
 │
 ├── Source Code/                     # Primary Application Layer
 │   ├── css/                         # Stylesheets
