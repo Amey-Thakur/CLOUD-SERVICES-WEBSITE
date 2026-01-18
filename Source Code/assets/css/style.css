@@ -1,31 +1,21 @@
 /*
-  Project: Cloud Services Website
-  File: style.css
-  Date: March 13, 2022
-  Description: Main stylesheet handling responsive layout, typography, and component styling for the website.
+    Experiment 6: E-Commerce / Cloud Service Website Design
+    Author: Amey Thakur
+    Batch: B3
+    Roll No: 50
+    Subject: Human Machine Interaction (CSL801)
+    Date: 13/03/2022
 
-  Created by: Amey Thakur (https://github.com/Amey-Thakur) & Mega Satish (https://github.com/msatmod)
-  Repository: https://github.com/Amey-Thakur/CLOUD-SERVICES-WEBSITE
-  License: MIT
+    This CSS file contains standard styles for the Cloud Service Website.
 */
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
 
-/*
-  Global Reset and Base Styles:
-  Removes default margins/padding and sets 'box-sizing: border-box' for predictable sizing.
-  'font-family' applies the Google Font 'Play' as the primary typeface.
-*/
 body {
   font-family: 'Play', sans-serif;
   margin: 0;
   box-sizing: border-box;
   padding: 0;
-  /* Anti-Select Protection */
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 * {

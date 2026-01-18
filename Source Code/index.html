@@ -1,55 +1,47 @@
 <!--
-  Project: Cloud Services Website
-  File: index.html
-  Date: March 13, 2022
-  Description: Home page of the Cloud Services Website, featuring key features, services, and testimonials.
+    Experiment-6: E-Commerce / Cloud Service Website Design
+    Author: Amey Thakur
+    Batch: B3
+    Roll No: 50
+    Subject: Human Machine Interaction (CSL801)
+    Date: 13/03/2022
 
-  Created by: Amey Thakur (https://github.com/Amey-Thakur) & Mega Satish (https://github.com/msatmod)
-  Repository: https://github.com/Amey-Thakur/CLOUD-SERVICES-WEBSITE
-  License: MIT
+    This HTML document represents the Home Page of a responsive website designed for a Cloud Service Provider.
+    It demonstrates key UI/UX principles including:
+    1. Navigation: Clear, consistent internal linking structure.
+    2. Hero Section: Impactful banner with call-to-action buttons.
+    3. Feature Highlighting: Icon-driven service indicators for quick scanning.
+    4. Social Proof: Testimonials and blog integration to build trust.
+    5. Responsiveness: Utilizes Bootstrap grid for mobile-first compatibility.
 -->
 <!doctype html>
-<html lang="eng">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>AMEY & MEGA</title>
-    <meta name="author" content="Amey Thakur & Mega Satish">
-    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Cloud Services | Amey Thakur</title>
 
-    <!-- Security Meta Tags -->
-    <meta http-equiv="Content-Security-Policy"
-        content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; frame-src 'self' https://www.google.com;">
-    <meta http-equiv="X-Content-Type-Options" content="nosniff">
-    <meta name="referrer" content="strict-origin-when-cross-origin">
-    <link rel="canonical" href="https://amey-thakur.github.io/CLOUD-SERVICES-WEBSITE/">
-
+    <!-- CSS Libraries -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/fontawsom-all.min.css">
     <link rel="stylesheet" href="assets/plugins/testimonial/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/plugins/testimonial/css/owl.theme.min.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <!-- ***************************** Head Starts Here *********************************-->
     <div class="head-cover">
-        <!-- 
-        Header Section:
-        Contains the main navigation using Bootstrap grid (col-md) for responsive behavior.
-        The 'scrollToFixed' jQuery plugin makes the header sticky on scroll.
-    -->
         <header id="menu-jk" class="container-fluid">
             <div class="container">
                 <div class="row head-ro">
                     <div class="col-md-3 logo">
                         <img src="assets/images/logo.png" alt="">
-
-
                         <a class="d-md-none small-menu" data-bs-toggle="collapse" href="#collapseExample" role="button"
                             aria-expanded="false" aria-controls="collapseExample">
-
                             <i class="fas d-lg-none  fa-bars"></i>
                         </a>
                     </div>
@@ -70,11 +62,6 @@
     </div>
 
     <!-- ***************************** Banner Starts Here *********************************-->
-    <!-- 
-        Banner/Hero Section:
-        Main marketing message with call-to-action buttons.
-        Uses Bootstrap's container and row/column system for layout.
-    -->
     <section class="container-fluid banner-container">
         <div class="container">
             <div class="row banner-row">
@@ -97,6 +84,7 @@
             </div>
         </div>
     </section>
+
     <!-- ***************************** Key Features Starts Here *********************************-->
     <div class="container-fluid key-featurecont">
         <div class="container">
@@ -252,7 +240,7 @@
                                     class="fas fa-comments"><small>(12)</small></i></p>
                             <p class="blog-desic">Lorem Ipsum, type lorem then press the shortcut. The default keyboard
                                 shortcut is the same keyboard shortcut is the </p>
-                            <a href="blog_single.html">Read More <i class="fas fa-arrow-right"></i></a>
+                            <a href="blog.html">Read More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -268,7 +256,7 @@
                                     class="fas fa-comments"><small>(12)</small></i></p>
                             <p class="blog-desic">Lorem Ipsum, type lorem then press the shortcut. The default keyboard
                                 shortcut is the same keyboard shortcut is the </p>
-                            <a href="blog_single.html">Read More <i class="fas fa-arrow-right"></i></a>
+                            <a href="blog.html">Read More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -300,7 +288,7 @@
                                 molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus dignissimos.
                                 Lorem ipsum dolor sit amet, consectetur.
                             </p>
-                            <h3 class="title">williamson
+                            <h3 class="title">Satisfied Client
                                 <span class="post"> - Developer</span>
                             </h3>
                         </div>
@@ -314,7 +302,7 @@
                                 molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus dignissimos.
                                 Lorem ipsum dolor sit amet, consectetur.
                             </p>
-                            <h3 class="title">Kristina
+                            <h3 class="title">Happy Customer
                                 <span class="post"> - Teacher</span>
                             </h3>
                         </div>
@@ -329,7 +317,7 @@
                                 molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus dignissimos.
                                 Lorem ipsum dolor sit amet, consectetur.
                             </p>
-                            <h3 class="title">Kristina
+                            <h3 class="title">Happy Customer
                                 <span class="post"> - Teacher</span>
                             </h3>
                         </div>
@@ -360,17 +348,15 @@
             <div class="row">
                 <div class="col-md-3 about">
                     <h2>About Us</h2>
-                    <p>Phasellus scelerisque ornare nisl sit amet pulvinar. Nunc non scelerisque augue. Proin et
-                        sollicitudin velit. </p>
+                    <p>We provide secure, scalable, and reliable cloud solutions tailored to your business needs.</p>
 
                     <div class="foot-address">
                         <div class="icon">
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
                         <div class="addet">
-                            BlueDart
-                            Marthandam (K.K District)
-                            Tamil Nadu, IND
+                            Terna Engineering College, Nerul<br>
+                            Navi Mumbai, Maharashtra, India
                         </div>
                     </div>
                     <div class="foot-address">
@@ -378,8 +364,7 @@
                             <i class="far fa-envelope-open"></i>
                         </div>
                         <div class="addet">
-                            info@smarteyeapps.com <br>
-                            sales@smarteyeapps.com
+                            ameythakur20@gmail.com <br>
                         </div>
                     </div>
                     <div class="foot-address">
@@ -387,27 +372,23 @@
                             <i class="fas fa-mobile-alt"></i>
                         </div>
                         <div class="addet">
-                            +23 323 43434 <br>
-                            +1 3232 434 55
+                            +91 9167078027 <br>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 fotblog">
                     <h2>From latest Blog</h2>
                     <div class="blohjb">
-                        <p>dignissim. Integer tempor facilisis malesuada. Proin ac varius velit, tincidunt condimentum
-                        </p>
-                        <span>22-1-2019</span>
+                        <p>Best practices for cloud security in 2022.</p>
+                        <span>13-03-2022</span>
                     </div>
                     <div class="blohjb">
-                        <p>dignissim. Integer tempor facilisis malesuada. Proin ac varius velit, tincidunt condimentum
-                        </p>
-                        <span>22-1-2019</span>
+                        <p>Optimizing server performance for high traffic.</p>
+                        <span>10-02-2022</span>
                     </div>
                     <div class="blohjb">
-                        <p>dignissim. Integer tempor facilisis malesuada. Proin ac varius velit, tincidunt condimentum
-                        </p>
-                        <span>22-1-2019</span>
+                        <p>Introduction to Cloud Computing architecture.</p>
+                        <span>01-01-2022</span>
                     </div>
                 </div>
                 <div class="col-md-3 glink">
@@ -416,7 +397,6 @@
                         <li><a href="about_us.html"><i class="fas fa-angle-double-right"></i>About Us</a></li>
                         <li><a href="services.html"><i class="fas fa-angle-double-right"></i>Services</a></li>
                         <li><a href="blog.html"><i class="fas fa-angle-double-right"></i>Blog</a></li>
-                        <li><a href="pricing.html"><i class="fas fa-angle-double-right"></i>Gallery</a></li>
                         <li><a href="contact_us.html"><i class="fas fa-angle-double-right"></i>Contact Us</a></li>
                     </ul>
                 </div>
@@ -437,8 +417,8 @@
     </footer>
     <div class="copy">
         <div class="container">
-            <a href="https://www.smarteyeapps.com/">2015 &copy; All Rights Reserved | Designed and Developed by
-                Smarteyeapps</a>
+            <a href="https://github.com/Amey-Thakur">2022 &copy; All Rights Reserved | Designed and Developed by Amey
+                Thakur</a>
             <span>
                 <a><i class="fab fa-github"></i></a>
                 <a><i class="fab fa-google-plus-g"></i></a>
@@ -451,6 +431,57 @@
 
 
 
+    <style>
+        /* Page Load Transition */
+        body {
+            animation: pageFadeIn 0.4s ease-in;
+        }
+
+        @keyframes pageFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Back to Dashboard Button */
+        .back-to-dashboard {
+            position: fixed !important;
+            bottom: 20px !important;
+            right: 20px !important;
+            background: #2563eb !important;
+            color: white !important;
+            padding: 10px 20px !important;
+            border-radius: 50px !important;
+            text-decoration: none !important;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+            font-size: 14px !important;
+            font-weight: bold !important;
+            z-index: 2147483647 !important;
+            transition: transform 0.2s !important;
+            display: flex !important;
+            align-items: center !important;
+            gap: 8px !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+        }
+
+        .back-to-dashboard:hover {
+            transform: translateY(-2px) !important;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4) !important;
+            color: white !important;
+        }
+    </style>
+    <a href="../index.html" class="back-to-dashboard">
+        <span>&larr;</span> Back to Dashboard
+    </a>
+    <script src="../assets/js/portfolio-enhancer.js?v=3"></script>
 </body>
 
 <script src="assets/js/jquery-3.2.1.min.js"></script>
