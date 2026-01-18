@@ -1065,3 +1065,20 @@ footer h3 {
     filter: drop-shadow(0 0 20px rgba(0, 123, 252, 0.4));
   }
 }
+
+/* Utility: Hover Primary Color */
+.hover-primary {
+  transition: color 0.3s ease;
+}
+
+.hover-primary:hover {
+  color: var(--primary) !important;
+}
+
+/* Fix: Move Owl Carousel dots to bottom */
+.owl-theme .owl-dots {
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+  text-align: center;
+}
