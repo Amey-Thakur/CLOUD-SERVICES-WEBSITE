@@ -109,10 +109,15 @@ CLOUD-SERVICES-WEBSITE/
 │   └── Mega.png                     # Author Profile Image (Mega Satish)
 │
 ├── Source Code/                     # Primary Application Layer
-│   ├── css/                         # Stylesheets
-│   ├── images/                      # Website Imagery
+│   ├── assets/                      # Static Assets (CSS, JS, Images)
+│   ├── 404.html                     # Error Page
+│   ├── about_us.html                # Corporate Profile
+│   ├── blog.html                    # Insights & News
+│   ├── contact_us.html              # Inquiry Form
+│   ├── favicon.png                  # Site Icon
 │   ├── index.html                   # Landing Page
-│   └── poster.html                  # Social Media Preview Poster
+│   ├── poster.html                  # Social Media Preview Poster
+│   └── services.html                # Service Offerings
 │
 ├── .gitattributes                   # Git configuration
 ├── CITATION.cff                     # Scholarly Citation Metadata
