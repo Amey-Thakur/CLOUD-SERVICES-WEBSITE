@@ -198,6 +198,13 @@ CLOUD-SERVICES-WEBSITE/
 2.  **Launch**:
     Open `Source Code/index.html` in your preferred browser.
 
+> [!TIP]
+> **Information Architecture | Cloud Services Landing Page**
+> 
+> Experience a high-fidelity web platform featuring **Hick’s Law** optimization and **F-Pattern scanning** layouts, designed to present complex service hierarchies in a digestible and navigable format through premium HMI design.
+>
+> [**Launch Live Demo**](https://amey-thakur.github.io/CLOUD-SERVICES-WEBSITE/)
+
 ---
 
 <!-- =========================================================================================
