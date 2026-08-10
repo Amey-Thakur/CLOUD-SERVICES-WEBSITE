@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cloud Services Website - Social Preview</title>
+<!-- Renders the 1280x640 social preview from this repository's own assets. -->
+</head>
+<body>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1280px;height:640px;overflow:hidden;font-family:"Segoe UI",system-ui,sans-serif}
+.card{position:relative;width:1280px;height:640px;overflow:hidden;background:#f0f7ff}
+.card:before{content:"";position:absolute;right:-190px;top:-230px;width:820px;height:820px;
+  border-radius:50%;background:radial-gradient(circle,rgba(0,123,252,.13),rgba(0,123,252,0) 68%)}
+.bar{position:absolute;left:0;right:0;top:0;height:98px;background:#fff;
+     border-bottom:1px solid #e2ecf7;display:flex;align-items:center;padding:0 62px;gap:34px}
+.bar img{height:46px}
+.nav{display:flex;gap:30px;font-size:17px;font-weight:600;color:#5b6b7f}
+.nav b{color:#007bfc;font-weight:700;border-bottom:3px solid #007bfc;padding-bottom:5px}
+.cta{margin-left:auto;background:#007bfc;color:#fff;font-size:16px;font-weight:700;
+     padding:13px 26px;border-radius:7px}
+.left{position:absolute;left:62px;top:140px;width:640px}
+.tag{font-size:14px;font-weight:700;letter-spacing:.22em;color:#007bfc}
+.h1{margin-top:16px;font-size:52px;font-weight:800;line-height:1.10;color:#12263f;letter-spacing:-.02em}
+.p{margin-top:18px;font-size:18px;line-height:1.58;color:#5b6b7f;max-width:560px}
+.btns{margin-top:26px;display:flex;gap:16px}
+.b1{background:#007bfc;color:#fff;font-size:17px;font-weight:700;padding:14px 30px;border-radius:8px;
+    box-shadow:0 12px 26px rgba(0,123,252,.30)}
+.b2{background:#fff;color:#007bfc;font-size:17px;font-weight:700;padding:14px 30px;border-radius:8px;
+    border:2px solid #cfe4ff}
+.by{position:absolute;left:62px;bottom:38px;font-size:19px;font-weight:700;color:#12263f}
+.by span{display:block;font-size:13px;font-weight:600;letter-spacing:.16em;color:#8b9bb0;margin-bottom:7px}
+.hero{position:absolute;right:34px;top:126px;width:520px;height:500px;
+      background:url(Source%20Code/assets/images/slider.png) center/contain no-repeat}
+</style>
+<div class="card">
+  <div class="bar">
+    <img src="Source%20Code/assets/images/logo.png" alt="Cloud">
+    <div class="nav"><b>Home</b><span>About Us</span><span>Services</span><span>Blog</span><span>Contact Us</span></div>
+    <div class="cta">Login / Sign Up</div>
+  </div>
+  <div class="hero"></div>
+  <div class="left">
+    <div class="tag">PROJECT</div>
+    <div class="h1">Next-Gen Cloud Solutions<br>for the Digital Era</div>
+    <div class="p">A responsive landing site for a cloud services provider, built with HTML, SCSS and jQuery.</div>
+    <div class="btns"><div class="b1">Get Started</div><div class="b2">Learn More</div></div>
+  </div>
+  <div class="by"><span>DESIGNED &amp; DEVELOPED BY</span>Amey Thakur &middot; Mega Satish</div>
+</div>
+</body>
+</html>
