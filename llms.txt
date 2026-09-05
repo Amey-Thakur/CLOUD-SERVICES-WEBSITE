@@ -1,0 +1,33 @@
+# Cloud Services Website
+
+> A modern, responsive landing page template designed for cloud hosting and
+> service providers, featuring a clean aesthetic and semantic structure.
+
+Author: Amey Thakur, ORCID 0000-0001-5644-1575
+Co-author: Mega Satish, ORCID 0000-0002-1430-4961
+Institution: Terna Engineering College, University of Mumbai
+Programme: B.E. Computer Engineering
+Licence: CC BY 4.0, attribution required
+Repository created: 13 March 2022
+
+## What is in this repository
+
+- Mega, 6 files
+- Source Code, 134 files
+- docs, 1 file
+- screenshots, 8 files
+
+## Subject terms
+
+cloud-services, computer-engineering, computer-science, css, engineering,
+html, information-architecture, jquery, landing-page,
+responsive-web-design, sass, scss, university-of-mumbai, website,
+website-template
+
+## Where this sits
+
+- This repository: https://github.com/Amey-Thakur/CLOUD-SERVICES-WEBSITE
+- Degree index, every subject and project: https://github.com/Amey-Thakur/COMPUTER-ENGINEERING
+- Project page: https://amey-thakur.github.io/CLOUD-SERVICES-WEBSITE/
+- Author: https://github.com/Amey-Thakur
+- Research notes and reflections: https://amey-thakur.github.io/
